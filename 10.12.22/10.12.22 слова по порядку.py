@@ -54,25 +54,25 @@ import itertools
 
 #5
 
-import itertools
-
-a = list(itertools.product('01234567', repeat = 5))
-
-count = 0
-for i in a:
-    num = ''.join(i)
-    if (num.count('6') == 1) and ('16'not in num)\
-            and ('61' not in num)\
-            and ('36' not in num)\
-            and ('63' not in num)\
-            and ('56' not in num)\
-            and ('65' not in num)\
-            and ('76' not in num)\
-            and ('67' not in num)\
-            and num[0] != '0':
-        print (num)
-        count += 1
-
-print (count)
+# import itertools
+#
+# a = list(itertools.product('01234567', repeat = 5))
+#
+# count = 0
+# for i in a:
+#     num = ''.join(i)
+#     if (num.count('6') == 1) and ('16'not in num)\
+#             and ('61' not in num)\
+#             and ('36' not in num)\
+#             and ('63' not in num)\
+#             and ('56' not in num)\
+#             and ('65' not in num)\
+#             and ('76' not in num)\
+#             and ('67' not in num)\
+#             and num[0] != '0':
+#         print (num)
+#         count += 1
+#
+# print (count)
 
 
