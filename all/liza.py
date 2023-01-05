@@ -1,5 +1,5 @@
 #                         #1
-#
+
 # from turtle import *
 # left(90)
 # pensize(10)
@@ -34,34 +34,34 @@
 # hideturtle()
 # done()
 
-#                     #2
-# from turtle import *
-# bgcolor("black")
-# color("pink")
-# speed(11)
-# left(45)
-#
-# for i in range(1000):
-#     circle(30)
-#     if i < 60:
-#         right(3)
-#         forward(5)
-#     if 60 < i < 100:
-#         forward(5)
-#     if i == 100:
-#         right(90)
-#     if 100 < i < 140:
-#         forward(5)
-#     if 140 < i < 200:
-#         right(3)
-#         forward(5)
-#     if i == 200:
-#         up()
-#         left(130)
-#         forward(200)
-#     if i == 201:
-#         write ("любимой ", False,
-#                align="center", font=("arial", 30, "normal"))
+                    #2
+from turtle import *
+bgcolor("black")
+color("pink")
+speed(11)
+left(45)
+
+for i in range(1000):
+    circle(30)
+    if i < 60:
+        right(3)
+        forward(5)
+    if 60 < i < 100:
+        forward(5)
+    if i == 100:
+        right(90)
+    if 100 < i < 140:
+        forward(5)
+    if 140 < i < 200:
+        right(3)
+        forward(5)
+    if i == 200:
+        up()
+        left(130)
+        forward(200)
+    if i == 201:
+        write ("любимому Колe", False,
+               align="center", font=("arial", 30, "normal"))
 
 
 # import time
