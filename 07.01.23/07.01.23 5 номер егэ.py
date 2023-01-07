@@ -36,20 +36,20 @@
 
         # 5.47002
 
-for n in range(1000):
-    binn = bin(n)[2::]      # двоичная запись числа
-
-    c1 = 0
-    c0 = 0
-    pos = 1
-
-    for elem in binn:
-        if elem ==  '1' and pos%2 == 0:
-            c1 += 1
-        if elem == '0' and pos%2 != 0:
-            c0 += 1
-        pos += 1
-    r = abs(c0 - c1)
-    if r == 4:
-        print(n)
-        break
+# for n in range(1000):
+#     binn = bin(n)[2::]      # двоичная запись числа
+#
+#     c1 = 0
+#     c0 = 0
+#     pos = 1
+#
+#     for elem in binn:
+#         if elem ==  '1' and pos%2 == 0:
+#             c1 += 1
+#         if elem == '0' and pos%2 != 0:
+#             c0 += 1
+#         pos += 1
+#     r = abs(c0 - c1)
+#     if r == 4:
+#         print(n)
+#         break
