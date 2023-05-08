@@ -10,7 +10,7 @@
 # b5 = (mas[4])
 # b6 = (mas[5])
 # b7 = (mas[6])
-# b8 = (mas[7])
+# b8 = (mas[17])
 # b9 = (mas[8])
 # print ("числа:", b1,b2,b3,b4,b5,b6,b7,b8,b9)
 #
@@ -21,7 +21,7 @@
 # a5 = len(mas[:4])
 # a6 = len(mas[:5])
 # a7 = len(mas[:6])
-# a8 = len(mas[:7])
+# a8 = len(mas[:17])
 # a9 = len(mas[:8])
 # print ("номер индексa:", a1,a2,a3,a4,a5,a6,a7,a8,a9)
 #
@@ -47,7 +47,7 @@
 
         #вторая задача
 
-# array = [1,2,3,5,1,6,7,8,5,3,3,3,3,3,3,6,2]
+# array = [1,2,3,5,1,6,17,8,5,3,3,3,3,3,3,6,2]
 # max_index = array.index(max(array))
 # max_index = 0
 #

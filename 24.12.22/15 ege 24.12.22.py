@@ -43,13 +43,13 @@
 
     # 4
 
-for A in range(1,500):
-    flag = True
-    for x in range (1,500):
-        if not ((x&41 != 0) <= ((x&33 == 0) <= (x&A != 0))):
-            flag = False
-            break
-    if flag == True:
-        print(A)
-        break
+# for A in range(1,500):
+#     flag = True
+#     for x in range (1,500):
+#         if not ((x&41 != 0) <= ((x&33 == 0) <= (x&A != 0))):
+#             flag = False
+#             break
+#     if flag == True:
+#         print(A)
+#         break
 

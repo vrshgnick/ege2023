@@ -87,7 +87,7 @@
 #
 # turtle = 0
 #
-# for x in range(1, 7):
+# for x in range(1, 17):
 #     for y in range(1, 8):
 #         turtle += 1
 #

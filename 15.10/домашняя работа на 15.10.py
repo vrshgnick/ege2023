@@ -55,7 +55,7 @@
 
 # a = "1234"
 # print (a[:1])
-
+#
 # a = [g,e,o,r,g,i,y]
 # a.reverse()
 # print (a)

@@ -141,33 +141,34 @@
     # 750
 
     # 6
-from turtle import *
-import turtle
-turtle.color('black','red')
-turtle.speed(0)
-left(90)
-m = 100
-begin_fill()
-right(10)
-forward(4*m)
-right(90)
-forward(48*m)
-right(90)
-forward(4*m)
-right(30)
-for i in range(8):
-    forward(6*m)
-    right(120)
-    forward(6*m)
-    right(240)
-end_fill()
-canvas = getcanvas()
-count = 0
-for x in range(-50*m,50*m,m):
-    for y in range(-50*m,50*m,m):
-        point = canvas.find_overlapping(x,y,x,y)
-        if len(point) == 1 and point[0] == 5:
-            count += 1
-print(count)
-done()
+# from turtle import *
+# import turtle
+# turtle.color('black','red')
+# turtle.speed(0)
+# left(90)
+# m = 100
+# begin_fill()
+# right(10)
+# forward(4*m)
+# right(90)
+# forward(48*m)
+# right(90)
+# forward(4*m)
+# right(30)
+# for i in range(8):
+#     forward(6*m)
+#     right(120)
+#     forward(6*m)
+#     right(240)
+# end_fill()
+# canvas = getcanvas()
+# count = 0
+# for x in range(-50*m,50*m,m):
+#     for y in range(-50*m,50*m,m):
+#         point = canvas.find_overlapping(x,y,x,y)
+#         if len(point) == 1 and point[0] == 5:
+#             count += 1
+# print(count)
+# done()
     #317
+

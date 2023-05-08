@@ -1,6 +1,6 @@
 # # pizdets
 #
-# array = [2,3,4,5,6,7]
+# array = [2,3,4,5,6,17]
 # for i in range(len(array)):
 #     array = array[i] ** 2
 # print (array)
@@ -15,7 +15,7 @@
 #
 #правильный ответ
 
-# array = [2,3,4,5,6,7]
+# array = [2,3,4,5,6,17]
 # for i in range(len(array)):
 #     array[i] = array[i] * array[i]
 # print (array)

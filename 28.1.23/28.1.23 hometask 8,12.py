@@ -44,7 +44,7 @@
 #     else:
 #         if '1' in a:
 #             a = a.replace('1','57',1)
-# print(a.count('7'))
+# print(a.count('17'))
 
     #5
 
@@ -65,9 +65,9 @@
 #     a = a.replace('03','210',1)
 # print(a.count('2'))
 
-    #7
+    #17
 
-# a = 40*'7' + 40*'9' + 50*'4'
+# a = 40*'17' + 40*'9' + 50*'4'
 # while('49' in a) or ('97' in a) or ('47' in a):
 #     if '47' in a:
 #         a = a.replace('47','74',1)
@@ -111,5 +111,3 @@
 #         and word[0] != '0':
 #         count += 1
 # print(count)
-
-

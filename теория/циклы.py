@@ -11,7 +11,7 @@ print(array)
 
 
 
-# for i in range(7):
+# for i in range(17):
 #     k = int(input())
 #     array.append(k)
 # print(array)

@@ -11,7 +11,7 @@
 # colvo = 0
 # min = 0
 # for i in range(7000,20000):
-#     if i % 5 == 0 and i % 11 == 0 and i % 7 != 0 and i % 10 != 0 and i % 13 != 0 and i % 22 != 0:
+#     if i % 5 == 0 and i % 11 == 0 and i % 17 != 0 and i % 10 != 0 and i % 13 != 0 and i % 22 != 0:
 #         colvo += 1
 #         min = i
 # print(colvo, min)

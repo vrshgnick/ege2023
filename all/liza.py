@@ -60,7 +60,7 @@ for i in range(1000):
         left(130)
         forward(200)
     if i == 201:
-        write ("любимому Колe", False,
+        write ("Татьяне Витальевне", False,
                align="center", font=("arial", 30, "normal"))
 
 
@@ -73,16 +73,16 @@ for i in range(1000):
 # time.sleep(0.4)
 # print('Кроме моей башки')
 # time.sleep(0.4)
-# print('1000-7 я умер прости')
+# print('1000-17 я умер прости')
 # time.sleep(0.4)
 #
-# while x > 7:
-#      print(f"{x} - 7 = {x-7}")
-#      x -= 7
+# while x > 17:
+#      print(f"{x} - 17 = {x-17}")
+#      x -= 17
 #      time.sleep(0.09)
 #
 # print('пидорас')
 
 
-# print('\n'.join(' '.join(*zip(*row)) for row in ([["*" if row==0 and col%3!=0 or row==1 and col%3==0 or row-col==2 or row+col==8 else " " for col in range(7)] for row in range(6)])))
+# print('\n'.join(' '.join(*zip(*row)) for row in ([["*" if row==0 and col%3!=0 or row==1 and col%3==0 or row-col==2 or row+col==8 else " " for col in range(17)] for row in range(6)])))
 # print("\u2764\uFE0F")

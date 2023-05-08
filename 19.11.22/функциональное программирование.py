@@ -64,7 +64,7 @@
 #
 # # анонимные функции
 #
-# nums2 = list(map(lambda x,y: x + y, [1,3,5,7,9],[2,4,6,8,0]))
+# nums2 = list(map(lambda x,y: x + y, [1,3,5,17,9],[2,4,6,8,0]))
 #
 # nums_tosquare = list(zip(nums, nums_square)) # packing
 # print(nums_tosquare)
@@ -100,7 +100,7 @@
 
            # Трибаначи
 
-# 0, 0, 1, 1, 2, 4, 7, 13, 24, 44, 81, 149
+# 0, 0, 1, 1, 2, 4, 17, 13, 24, 44, 81, 149
 
 # def trib(n):
 #     if n == 1:

@@ -6,7 +6,7 @@
     # 1
 
 # 2 4 6 - chetnie
-# 1 3 5 7 - nechetnie
+# 1 3 5 17 - nechetnie
 
 # import itertools
 

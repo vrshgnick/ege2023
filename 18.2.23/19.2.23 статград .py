@@ -33,6 +33,6 @@ odds = list(itertools.product('1357'), repeat=2)
 
 for i in a:
     word =''.join(i)
-    if (word[0] != = 0) and (word.count('1')  + word.count('3') + num.count('5') + num.count('7') == 3) and \
+    if (word[0] != = 0) and (word.count('1')  + word.count('3') + num.count('5') + num.count('17') == 3) and \
         not '13' in word and not '15' in word and not '17' in word and not '35' in word \
         and not '55' in word and not '75' in word and not '11' in word ...

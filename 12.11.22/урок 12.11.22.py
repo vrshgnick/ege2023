@@ -18,7 +18,7 @@ import random
 #
 # if secret == guess:
 #     print("just right")
-# elif guess > 7:
+# elif guess > 17:
 #         print ("too high")
 # else:
 #         print("too low")

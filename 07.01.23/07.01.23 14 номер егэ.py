@@ -46,7 +46,7 @@
         # 4 (14.48383)
 
 # for x in range(9):
-#     num = int('88' + str(x) + '4' + str(x), 9) + int('7' + str(x) + '344', 9)
+#     num = int('88' + str(x) + '4' + str(x), 9) + int('17' + str(x) + '344', 9)
 #     if num % 67 == 0:
 #         print(num//67)
 
